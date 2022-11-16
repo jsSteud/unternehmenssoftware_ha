@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35ff450-c925-458c-a39d-d83fc48df96e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/01.10.10-27.05.15_ohneRetweets.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/november.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/november_ohneRetweets.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/filterRetweets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/scrapeTweets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/unternehmenssoftware_ha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/unternehmenssoftware_ha.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/READ.me.pages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wm.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wm_tweets_06.10.2022.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/trashTestData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +55,7 @@
       <workItem from="1668109145294" duration="28000" />
       <workItem from="1668518288674" duration="258000" />
       <workItem from="1668518565415" duration="5645000" />
-      <workItem from="1668619861450" duration="3912000" />
+      <workItem from="1668619861450" duration="4123000" />
     </task>
     <servers />
   </component>
