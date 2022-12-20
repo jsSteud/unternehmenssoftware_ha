@@ -11,21 +11,21 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True)
 
 
-csvFile = open('../csv/november.csv', 'a')
+csvFile = open('../../csv/dataset.csv', 'a')
 #Use csv Writer
 csvWriter = csv.writer(csvFile)
-csvWriter.writerow(["Timestamp", "Tweet", "Hashtags", "Tweet_ID"])
+#csvWriter.writerow(["Timestamp", "Tweet", "Hashtags", "Tweet_ID"])
 counter = 0
 
-for tweet in tweepy.Cursor(api.search_30_day,
+for tweet in tweepy.Cursor(api.search_full_archive,
                             #label must be set account specific!
                             label= '',
                             query= '#wm2022 OR #wmkatar lang:de',
-                            fromDate = "202211150000",
-                            toDate = "202211160000"
+                            fromDate = "202101010000",
+                            toDate = "202202260000"
                           ).items():
-
-    print (counter)
-    csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8'), tweet.entities.get('hashtags'),tweet.id])
-    counter += 1
-
+    status = api.get_status(tweet.id, tweet_mode="extended")
+    if not tweet.retweeted and 'RT @' not in tweet.text:
+        csvWriter.writerow([tweet.created_at, status.full_text, tweet.entities['hashtags'], tweet.id])
+        counter += 1
+        print(counter)
