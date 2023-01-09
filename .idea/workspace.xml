@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35ff450-c925-458c-a39d-d83fc48df96e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22,_12_22_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22__12_22__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/twitter/scrapeTweets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/twitter/sentiment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22,_12_22_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22__12_22__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/unternehmenssoftware_ha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/unternehmenssoftware_ha.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/01.01.10-27.05.15.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/archive/01.01.10-27.05.15.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/01.10.10-27.05.15_ohneRetweets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/archive/01.10.10-27.05.15_ohneRetweets.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/november.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/archive/november.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/november_ohneRetweets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/archive/novemberRetweets.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/trashTestData.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/twitter/count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/filterRetweets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/scrapeTweets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/archive/november.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/archive/november.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/cleaned_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/cleaned_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/twitter/sentiment.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +49,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -73,6 +63,28 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="unternehmenssoftware_ha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/twitter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/twitter/count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scrapeTweets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="unternehmenssoftware_ha" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,8 +107,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wordcloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="unternehmenssoftware_ha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/twitter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/twitter/wordcloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.count" />
+        <item itemvalue="Python.wordcloud" />
         <item itemvalue="Python.scrapeTweets" />
       </list>
     </recent_temporary>
@@ -117,7 +153,15 @@
       <workItem from="1668619861450" duration="8593000" />
       <workItem from="1671443904388" duration="3605000" />
       <workItem from="1671449574414" duration="9209000" />
-      <workItem from="1671464778191" duration="3097000" />
+      <workItem from="1671464778191" duration="3478000" />
+      <workItem from="1671626378087" duration="270000" />
+      <workItem from="1671626708985" duration="1405000" />
+      <workItem from="1671628622346" duration="1338000" />
+      <workItem from="1671630158886" duration="1191000" />
+      <workItem from="1671875006618" duration="3720000" />
+      <workItem from="1672089780340" duration="88000" />
+      <workItem from="1672484746676" duration="143000" />
+      <workItem from="1673274518039" duration="3049000" />
     </task>
     <servers />
   </component>
@@ -139,12 +183,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$test.coverage" NAME="test Coverage Results" MODIFIED="1672065900907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
     <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$utf8Encoding.coverage" NAME="utf8Encoding Coverage Results" MODIFIED="1671445722078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/input" />
     <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$scrapingPost.coverage" NAME="scrapingPost Coverage Results" MODIFIED="1668625482896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/facebook" />
     <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$scrapeTweets.coverage" NAME="scrapeTweets Coverage Results" MODIFIED="1671533971291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
-    <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$sentiment.coverage" NAME="sentiment Coverage Results" MODIFIED="1671537551072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
-    <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$count.coverage" NAME="count Coverage Results" MODIFIED="1668622257916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$sentiment.coverage" NAME="sentiment Coverage Results" MODIFIED="1671878823609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
+    <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$textblob_sentiment.coverage" NAME="textblob_sentiment Coverage Results" MODIFIED="1673277193641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
     <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$scrapeJSON.coverage" NAME="scrapeJSON Coverage Results" MODIFIED="1671450271112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
+    <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$count.coverage" NAME="count Coverage Results" MODIFIED="1671878812255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
     <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$filterRetweets.coverage" NAME="filterRetweets Coverage Results" MODIFIED="1671448415268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/twitter" />
     <SUITE FILE_PATH="coverage/unternehmenssoftware_ha$main.coverage" NAME="main Coverage Results" MODIFIED="1668531252741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
