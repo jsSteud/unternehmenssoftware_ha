@@ -2,6 +2,5 @@ To get the link from a tweet:
     
     https://twitter.com/twitter/statuses/ + {id} 
     
-Dieser Projekt erstellt ein Sentiment-Analyse-Modell mithilfe von German Word2Vec und einem convolutional neural network. Das Modell nimmt eine Sequenz von Wörtern als Eingabe und gibt eine Sentiment-Vorhersage (entweder positiv oder negativ) aus.
-    
-    https://devmount.github.io/GermanWordEmbeddings/
+Link to download our Model 
+https://drive.google.com/file/d/1yH7FQiR_Bw0d_TGbC6ik3jEDEgyv3x2H/view?usp=sharing
