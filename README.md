@@ -2,9 +2,9 @@
 ##### Short facts
 
 - In Folder ``` python/twitter ``` you find the code for scrapingg the tweets 
-- In Folder ``` csv ``` you find our csv-files
-- ``` Final_insights.ipynb ``` is the file with the final model
-- Model was trained with file ``` Preprocessing+Modelling.ipynb ```
+- In Folder ``` csv ``` you find our source data csv-files
+- Data was further cleanend and model was thrained in file ``` Preprocessing+Modelling.ipynb ```
+- ``` Final_insights.ipynb ``` final viualizations basedd on the preddicted sentiment
 - The other files are old or just for support
 
 #### To get the link from a tweet:
